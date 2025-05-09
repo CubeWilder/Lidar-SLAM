@@ -2,6 +2,6 @@
 
 Slam Tolbox installieren
 
-  '''bash
+  ```bash
   sudo apt install ros-humble-slam-toolbox
-  '''
+  ```
