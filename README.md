@@ -43,4 +43,15 @@
 
   ```bash
   cd ~/<workspacename>/src/
-  git clone -b ros2 https://
+  git clone -b ros2 https://github.com/CubeWilder/Lidar-SLAM.git
+  ```
+
+  ```bash
+  cd ~/<workspacename>/
+  colcon build
+  source install/setup.bash
+  ```
+
+  ```bash
+  ros2 launch my_robot_bringup bringup.launch.py
+  ```
